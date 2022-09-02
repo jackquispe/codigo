@@ -24,6 +24,7 @@ console.log("adas")
 git config --global user.name "nombre"
 ```
 
+* inicia el git
 ```bash
 git init
 ```
@@ -31,4 +32,24 @@ git init
 * para ver el estado de nuestroa cambios
 ```bash
 git status
+
+```
+* agrega los archivos a memoria de la pc
+```bash
+git add
+```
+
+* crea el resgoistro de los cambios realizados
+```bash
+git commit -m "comentario"
+```
+
+* poder ver historial de commit
+```bash
+git log
+```
+
+* poder ver el detalle del commit
+```bash
+git show
 ```
