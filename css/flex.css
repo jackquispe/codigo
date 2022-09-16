@@ -1,0 +1,31 @@
+*{
+    /*hace que el borde de la caja este dentro, mas no se muestre hacia afuera*/
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+
+}
+body{
+    background-color: red;
+    
+
+}
+.padre{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /*propiedad que permite alinear de manera horizontal
+    flex-star: izquierda
+    flex-end: derecho
+    flex center: centrado*/
+    justify-content: space-between;
+    /*es la propiedad que permite alinear de maneta vertical
+    y comparte las mismas propiedades que justify center*/
+    align-items: center;
+}
+.hijo{
+    width: 25%;
+    height: 100px;
+    border: solid 5px green;
+    background-color: white;
+}
